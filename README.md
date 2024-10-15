@@ -7,7 +7,7 @@
 
 ## Si quieres poder acceder desde el navegador de tu equipo, ¿que debes hacer? Utiliza bind mount para que el directorio del apache2 'htdocs' esté montado un directorio que tu elijas.
 '''docker run -d --name=dam_web1 -p 8080:80 -v /home/youbinarey/dam2/sxe:/usr/local/apache2/htdocs httpd'''
-Al desplegar el servidor y acceder a traves de un cliente como el navegador propio me muestra el contenido directorio referenciado /home7youbinarey/dam2/sxe
+Al desplegar el servidor y acceder a traves de un cliente como el navegador propio me muestra el contenido directorio referenciado /home/youbinarey/dam2/sxe
     
 ## Realiza un 'hola mundo' en html y comprueba que accedes desde el navegador.
 '''echo "hola mundo" > web.html'''
