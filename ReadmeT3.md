@@ -15,3 +15,9 @@ Indexo la ruta en el navegador http://10.0.9.102:8080/web.html o accedor atraves
 
 ## Crea otro contenedor 'dam_web2' con el mismo bind mount y a otro puerto, por ejemplo 9080.
 docker run -d --name=dam_web2 -p 9090:80 -v /home/youbinarey/dam2/sxe:/usr/local/apache2/htdocs httpd
+
+## Comprueba que los dos servidores 'sirven' la misma página, es decir, cuando consultamos en el navegador:
+        Sí las muestra, ambos puertos referencian el mismo contenido
+        
+## Realiza modificaciones de la página y comprueba que los dos servidores 'sirven' la misma página
+'''touch "NUEVO CONTENIDO PARA LA TAREA 2" > web.html'''
