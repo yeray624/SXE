@@ -26,3 +26,11 @@ Sí pueden hacer ping entre los contenedores
 ## Sal del terminal, ¿que ocurrió con el contenedor?
 '''exit'''
 Se ha detenido la ejecución del contenedor
+
+## ¿Cuanta memoria en el disco duro ocupaste?
+  '''docker ps -s'''
+  24B(virtual 7.8MB)
+  
+## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+'''docker stats'''
+1.934MiB
