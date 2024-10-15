@@ -13,3 +13,7 @@ No está arrancado
 '''docker run -it --name=dam_alp1 alpine /bin/sh
 '''
 Se abre una terminal y estoy dentro del contenedor
+
+## Comprueba que ip tiene y si puedes hacer un ping a google.com
+'''hostname -i'''
+Arroja la 172.17.0.2
