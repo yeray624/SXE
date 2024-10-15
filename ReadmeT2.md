@@ -22,3 +22,7 @@ Arroja la 172.17.0.2
 '''docker run -it --name=dam_alp2 alpine /bin/sh'''
 ''' ping172.17.0.2'''
 Sí pueden hacer ping entre los contenedores
+
+## Sal del terminal, ¿que ocurrió con el contenedor?
+'''exit'''
+Se ha detenido la ejecución del contenedor
